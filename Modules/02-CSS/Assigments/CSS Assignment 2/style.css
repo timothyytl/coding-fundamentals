@@ -1,0 +1,21 @@
+.breadcrumb {  
+    padding: 5px 0 5px 20px;
+    background-color: lightgray;
+    text-decoration: none;
+  }
+  
+  .breadcrumb li {
+    display: inline;
+    
+  }
+  
+  .breadcrumb li a {
+    color: #0068b3;
+  }
+  
+  li ::after {
+    content: '/';
+    padding: 2px 10px;
+    display: inline-block;
+    color: #0068b3;
+  }
