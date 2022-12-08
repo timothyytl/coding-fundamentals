@@ -1,0 +1,64 @@
+body {
+    background-color: #0068b3;
+    margin: 0;
+    padding: 0;
+  }
+
+@media (max-width:640px) {
+    .mobile {
+        background-color: red;
+        height: 100vh;
+        width: 100vw;
+        padding-left: 100px;
+        padding-top: 50px;
+        position: absolute;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+  }
+  
+@media (min-width:640px) {
+    .tablet {
+        background-color: lightgreen;
+        height: 100vh;
+        width: 100vw;
+        padding-left: 100px;
+        padding-top: 50px;
+        position: absolute;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+  }
+  
+  @media (min-width:1024px) {
+    .desktop {
+        background-color: blue;
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        padding-left: 100px;
+        padding-top: 50px;
+        position: absolute;
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+  }
