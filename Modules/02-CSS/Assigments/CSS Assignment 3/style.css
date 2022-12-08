@@ -1,0 +1,39 @@
+.menu {    
+    /* Style for menu button */
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .submenu {    
+    /* Hide submenu */
+    display: none;
+  }
+
+  .submenu-item {
+    width: 10%;
+    height: 25px;
+    padding: 20px;
+    background-color: lightgray;
+    display: block;
+  }
+
+  .menu:hover .submenu {    
+    /* Show submenu on hover */
+    cursor: pointer;
+    display: block;
+    position: relative;
+  }
+
+  .submenu-item:hover {
+    cursor: pointer;
+    background-color: gray;
+    display: block;
+    position: relative;
+  }
+
+  .settings:hover {
+    cursor: pointer;
+  }
