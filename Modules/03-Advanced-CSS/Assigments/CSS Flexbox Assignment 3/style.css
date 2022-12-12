@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding-bottom: 10rem;
+    background-color: lightblue;
+}
+
+main {
+    padding-bottom: 10rem;
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+footer {
+    background-color: white;
+    height: 10px;
+    padding: 3rem 2rem;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 1px 20px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.about {
+    padding: 0 1rem;
+    margin: 1rem; 
+}
+
+.blog {
+    padding: 0 1rem;
+}
+
+.jobs {
+    padding: 0 1rem;
+}
+
+.press {
+    padding: 0 1rem;
+}
+
+.accessibility {
+    padding: 0 1rem;
+}
+
+.partners {
+    padding: 0 1rem;
+}
+
+.footer-social {
+    display: flex;
+    padding: 0 20px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-icon {
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    filter: grayscale(100%);
+}
+
+.ig-icon {
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    filter: grayscale(180%);
+}
+
+.twitter-icon {
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    filter: grayscale(100%);
+}
+
+.github-icon {
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    filter: grayscale(100%);
+}
+
+.linkedin-icon {
+    height: 30px;
+    width: auto;
+    padding-right: 20px;
+    filter: grayscale(100%);
+}
+
+.copyright-container {
+    color: gray;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
