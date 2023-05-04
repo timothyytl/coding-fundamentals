@@ -1,0 +1,9 @@
+p:first-of-type {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.content {
+    display: none;
+}
