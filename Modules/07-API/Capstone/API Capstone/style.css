@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 10px 30px;
+}
+
+header {
+    background-color: #303030;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} 
+
+.card {
+    border: none;
+    max-width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 3px 5px 15px #545454;
+}
+
+
+.card-img {
+    display: block;
+    height: 50%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    font-size: 10px;
+    padding: 5px 20px 30px 20px;
+    overflow: hidden;
+} 
+ 
+.cat-name {
+    font-size: small;
+    font-weight: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.card-profile {
+    border-style: none;
+    background-color: #545454;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    border-radius: .2rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+@media (min-width: 768px) {
+    #card-container {
+        grid-template-columns: repeat(2, fit-content(100%));
+        column-gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    #card-container {
+        grid-template-columns: repeat(3, fit-content(100%));
+        column-gap: 50px;
+        justify-content:center;
+    }
+}
+
