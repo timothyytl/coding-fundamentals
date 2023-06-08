@@ -1,0 +1,68 @@
+2. Open Ended
+
+1. Why do we need a loop? How do you write a basic for loop?
+
+- A loop allows us to write a code just once and have that code return the result for a specified number of repetitions without the need for unnecessary repetitive coding. 
+For example:
+
+Instead of coding: 
+
+console.log(0)
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+
+We can use a for loop to write a code once and return the result 6 times as follows:
+
+for ( let i = 0; i <= 6; i++) {
+	console.log(i)
+};
+
+
+2. Difference between console.log() and return?
+
+- console.log() is used to print out the result of a code usually to find out if the code works or not whereas a return is used to end or exit a function whilst specifying its return value.
+
+
+3. What are truthy values? What are falsy values?
+
+- Truthy values are boolean values that are considered true, no matter what, UNLESS they’re defined specifically as FALSE. Likewise, falsy values are boolean values that are considered false UNLESS they’re defined as TRUE.
+
+4. How does the internet work?
+
+- The internet is a worldwide “INTER”connected “NET”work of computers which transmits/send a variety of data/media with each other via the TCP (Transport Control Protocol) /IP (Internet Protocol) protocol. 
+
+Computers use IP addresses to identify one another. 
+
+Whenever you type a website address (URL - Uniform Resource Locator) into your browser your computer translates it into a number-based IP address via a DNS (Domain Name Server - like an address book for websites), contacts the website’s server through a HTTP (Hypertext Transfer Protocol - language used for internet communication), and requests the page. 
+
+A response is sent back to your computer (Upon server approval, it sends a “200 OK” message) because your IP address is in the request, so the server (a computer or device that store web pages, sites, or applications and provides those services to another computer program and its user (aka client)) knows where to send it.
+
+
+
+5. How does a website work? What files are involved?
+
+- When someone types your domain name (www.timothylim.com) into their browser’s (google chrome/safari/internet explorer…), their computer sends a request to connect to the web server keeping your files.
+
+Prior to arriving the web server, the request goes through the DNS (Domain Name Server) which searches for the server’s IP address. The DNS also ensures that the browser connects to the correct server.
+
+Once all is good, the server processes the files your website needs to display its content.
+
+The web browser then ‘reads’ those said files (HTML, CSS, Javascript, Images, etc..) and displays them on the visitor’s computer screen.
+
+The files commonly involved are html, css, js, images, videos, mp3s
+
+
+
+
+
+
+
+
+
+
+
+
