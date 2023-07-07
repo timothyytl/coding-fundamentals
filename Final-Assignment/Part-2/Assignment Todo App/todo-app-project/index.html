@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="wrapper">
+        <section class="add-todo">
+            <h1>TODO LIST</h1>
+            <form class="new-item-form">
+                <div class="new-item-input-container">
+                    <input type="text" placeholder="Add a new task">
+                    <button id="main-btn" type="submit">+</button>
+                </div>
+                
+                <h3>PRIORITY</h3>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="category" id="category1" value="low">
+                        <span class="circle low"></span>
+                        <div>Low</div>
+                    </label>
+        
+                    <label>
+                        <input type="radio" name="category" id="category2" value="med">
+                        <span class="circle med"></span>
+                        <div>Medium</div>
+                    </label>
+        
+                    <label>
+                        <input type="radio" name="category" id="category3" value="high">
+                        <span class="circle high"></span>
+                        <div>High</div>
+                    </label>
+                </div>
+            </form>
+            <div id="delete-all">
+                <button>DELETE ALL</button>
+            </div>
+        </section>
+
+        <div class="todo-list">
+        </div> 
+    </main>
+</body>
+</html>
+
