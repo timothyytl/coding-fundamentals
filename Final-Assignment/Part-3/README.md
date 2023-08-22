@@ -1,2 +1,1 @@
-The video to explain my project is still in progress and will be sharing the link in this README section soon.
-
+Here's the link to my Youtube video: https://youtu.be/nFAFl7rW1Zg
